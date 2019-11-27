@@ -85,6 +85,10 @@ class TelegramHandler extends AbstractProcessingHandler
      */
     protected function write(array $record)
     {
+        if (!$this->token || !$this->chatId) {
+            return;
+        }
+
         $message = isset($record['formatted']) ? $record['formatted'] : $record['message'];
 
         // When message is too long we have to remove HTML tags so that the message can be properly split
