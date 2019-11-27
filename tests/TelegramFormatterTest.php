@@ -1,6 +1,6 @@
 <?php
 
-namespace jacklul\MonologTelegramHandler\Tests;
+namespace grigoryangeo\MonologTelegramHandler\Tests;
 
 use jacklul\MonologTelegramHandler\TelegramFormatter;
 use PHPUnit\Framework\TestCase;

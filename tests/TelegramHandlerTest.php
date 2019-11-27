@@ -1,6 +1,6 @@
 <?php
 
-namespace jacklul\MonologTelegramHandler\Tests;
+namespace grigoryangeo\MonologTelegramHandler\Tests;
 
 use Dotenv\Dotenv;
 use jacklul\MonologTelegramHandler\TelegramHandler;

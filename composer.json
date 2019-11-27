@@ -1,5 +1,5 @@
 {
-  "name": "jacklul/monolog-telegram",
+  "name": "grigoryangeo/monolog-telegram",
   "type": "library",
   "description": "Monolog handler that sends logs through Telegram bot to any chat in HTML format",
   "keywords": [
@@ -11,14 +11,14 @@
   ],
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/jacklul/monolog-telegram/issues",
-    "source": "https://github.com/jacklul/monolog-telegram"
+    "issues": "https://github.com/grigoryangeo/monolog-telegram/issues",
+    "source": "https://github.com/grigoryangeo/monolog-telegram"
   },
   "authors": [
     {
       "name": "Jack'lul",
-      "email": "jacklulcat@gmail.com",
-      "homepage": "https://jacklul.github.io",
+      "email": "grigoryangeo@gmail.com",
+      "homepage": "https://grigoryangeo.github.io",
       "role": "Developer"
     }
   ],
@@ -39,12 +39,12 @@
   },
   "autoload": {
     "psr-4": {
-      "jacklul\\MonologTelegramHandler\\": "src/"
+      "grigoryangeo\\MonologTelegramHandler\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "jacklul\\MonologTelegramHandler\\Tests\\": "tests/"
+      "grigoryangeo\\MonologTelegramHandler\\Tests\\": "tests/"
     }
   },
   "scripts": {

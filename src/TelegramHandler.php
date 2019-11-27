@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace jacklul\MonologTelegramHandler;
+namespace grigoryangeo\MonologTelegramHandler;
 
 use Monolog\Handler\AbstractProcessingHandler;
 use Monolog\Logger;
