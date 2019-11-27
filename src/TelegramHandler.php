@@ -83,7 +83,7 @@ class TelegramHandler extends AbstractProcessingHandler
     /**
      * {@inheritdoc}
      */
-    protected function write(array $record)
+    protected function write(array $record):void
     {
         if (!$this->token || !$this->chatId) {
             return;
@@ -107,7 +107,7 @@ class TelegramHandler extends AbstractProcessingHandler
     /**
      * {@inheritdoc}
      */
-    public function handleBatch(array $records)
+    public function handleBatch(array $records):void
     {
         $messages = [];
         foreach ($records as $record) {
