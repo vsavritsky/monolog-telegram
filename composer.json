@@ -1,5 +1,5 @@
 {
-  "name": "grigoryangeo/monolog-telegram",
+  "name": "vsavritsky/monolog-telegram",
   "type": "library",
   "description": "Monolog handler that sends logs through Telegram bot to any chat in HTML format",
   "keywords": [
@@ -11,16 +11,9 @@
   ],
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/grigoryangeo/monolog-telegram/issues",
-    "source": "https://github.com/grigoryangeo/monolog-telegram"
+    "issues": "https://github.com/vsavritsky/monolog-telegram/issues",
+    "source": "https://github.com/vsavritsky/monolog-telegram"
   },
-  "authors": [
-    {
-      "name": "Grigoryan George",
-      "email": "grigoryangeo@gmail.com",
-      "role": "Developer"
-    }
-  ],
   "require": {
     "php": "^7.2",
     "ext-json": "*",
